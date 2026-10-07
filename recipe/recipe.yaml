@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pytensor-ml
-  version: "0.2.2"
+  version: "0.3.0"
   python_min: "3.12"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytensor_ml/pytensor_ml-${{ version }}.tar.gz
-  sha256: 2a261aae4939256780a01d1c3ded1a331bcf28b43dbd05d5d7efd93dad8fb9a2
+  sha256: 5bbd1085e1eef52092bf7fd3ce60614a005ff9d2e106a505cd99fbc7e6923001
 
 build:
   noarch: python
